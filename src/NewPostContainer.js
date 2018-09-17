@@ -3,7 +3,6 @@ import NewPost from './NewPost.js'
 
 class NewPostContainer extends Component {
     constructor(props) {
-        console.log(props)
         super(props);
         this.state = {
             newFlutter: '',
