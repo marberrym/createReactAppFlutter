@@ -8,7 +8,7 @@ let Home = (props) =>
     <div className="flexColumn">
         <NavBar/>
         <HeadLogo/>
-        <NewPostContainer submitFlutter={props.submitFlutter}/>
+        <NewPostContainer/>
         <PostList postList={props.postList.reverse()}/>
     </div>
 

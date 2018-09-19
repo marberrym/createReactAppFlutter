@@ -153,8 +153,36 @@ h1 {
 .postText {
     font-family: 'Permanent Marker', cursive;
     margin-left: 1em;
-    font-size: 1.5em;
+    font-size: 1em;
     color: black;
+}
+
+.deleteButton {
+    font-family: 'Permanent Marker', cursive;
+    font-size: .5em;
+    color: whitesmoke;
+    background-color: rgb(21, 169, 229);
+    padding: .3em;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    border-radius: .5em;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.deleteButton:hover{
+    color: black;
+    border: 1px solid black;
+}
+
+.deleteButton:active {
+    box-shadow: none;
+    outline: none;
+}
+
+.deleteButton:focus {
+    box-shadow: none;
+    outline: none;
 }
 
 .flutter {
