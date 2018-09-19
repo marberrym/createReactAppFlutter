@@ -6,7 +6,6 @@ class NewPostContainer extends Component {
         super(props);
         this.state = {
             newFlutter: '',
-            submit: props.submitFlutter
         }
     }
     render() {
